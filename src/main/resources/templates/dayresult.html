@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+    <h2>Result</h2>
+    <!-- https://www.thymeleaf.org/doc/tutorials/3.1/usingthymeleaf.html#conditional-evaluation -->
+    <p th:if="${isDayOfWeek}">Yes, it's <span th:text="${dayOfWeek}"></span>.</p>
+    <p th:unless="${isDayOfWeek}">No, it's not <span th:text="${dayOfWeek}"></span>.</p>
+    <a href="/isitdayoftheweek">Back to form</a>
+</body>
+</html>

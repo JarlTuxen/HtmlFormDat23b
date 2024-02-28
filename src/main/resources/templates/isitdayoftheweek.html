@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Check if it's a Day of the Week</title>
+</head>
+<body>
+    <h2>Check if it's a Day of the Week</h2>
+    <form id="dayOfWeekForm" method="post" action="http://localhost:8080/isitdayoftheweek">
+        <label for="dayOfWeek">Select a day:</label>
+        <select id="dayOfWeek" name="dayOfWeek">
+            <option value="1">Monday</option>
+            <option value="2">Tuesday</option>
+            <option value="3">Wednesday</option>
+            <option value="4">Thursday</option>
+            <option value="5" selected>Friday</option>
+            <option value="6">Saturday</option>
+            <option value="7">Sunday</option>
+        </select>
+        <br><br>
+        <button type="submit">Check</button>
+    </form>
+</body>
+</html>
