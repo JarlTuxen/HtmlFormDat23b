@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 
 @Service
-public class DayCalculator {
+public class DayCalculatorService {
 
     //FridayCalculator branch
     public String erdetfredag(){
