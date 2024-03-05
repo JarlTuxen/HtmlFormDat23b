@@ -35,11 +35,11 @@ public class BMIController {
 
     @GetMapping("/bmiresult")
     public String showResult(@RequestParam("bmi") double bmi, Model model) {
-        if (bmi == 0.0) {
+        /*if (bmi == 0.0) {
             // Handle the case where there's no BMI value in the model
             // Redirect to the form page or show an error message
             return "redirect:/bmicalculator"; // Redirect back to the form page
-        }
+        }*/
         
         model.addAttribute("bmi", bmi);
         return "bmiresult";
